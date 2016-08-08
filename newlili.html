@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>表单验证</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="lili.css">
+	<script type="text/javascript" src="lili.js"></script>
+</head>
+<body onLoad="init(document.Verify_form.UserName)">	
+    <form name="Verify_form" method="post"  action="https://www.baidu.com/index.php?tn=monline_3_dg" onSubmit="return Check()">
+        <table class="tab">
+            <tr>
+                <td colspan="2" class="regular">请输入用户信息</td>   
+            </tr>
+            <tr>
+                <td>
+                    <div class="subbont">输入用户名：</div> 
+                </td>
+                <td> 
+                    <input type="text" name="UserName">
+                </td> 
+            </tr>
+            <tr> 
+                <td>
+                    <div class="subbont">输入密码：</div>
+                </td>
+                <td> 
+                    <input type="password" name="Password"> 
+                </td> 
+            </tr>
+            <tr>
+                <td> 
+                    <div class="subbont">再输入一次密码：</div>
+                </td>
+                <td> 
+                    <input type="password" name="Againpass">
+                </td> 
+            </tr>
+            <tr>
+                <td>
+                    <div class="subbont">E_mail：</div> 
+                </td>
+                <td> 
+                    <input type="text" name="E_mail"> 
+                </td> 
+            </tr>
+            <tr> 
+                <td>
+                </td>
+                <td>
+                    <div class="sub">
+                        <input type="submit" name="Submit" value="提交"> 
+                    </div>
+                    <input type="reset" name="Reset" value="重写">
+                </td>
+            </tr>
+        </table> 
+    </form>
+</body>
+</html>

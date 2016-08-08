@@ -1,0 +1,22 @@
+body{
+	background: #FFFFFF;
+}
+.tab{
+ 	width:100%;
+ 	border-style:none;
+	text-align:center;
+}
+.regular{
+	font-family:微软雅黑;
+	font-size:15px;
+	color: #FF0000;
+}
+.subbont{
+	float: right;
+}
+.sub{
+	float:left;
+}
+input{
+	float:left;
+}
